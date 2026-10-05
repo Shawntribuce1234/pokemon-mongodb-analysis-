@@ -1,0 +1,7547 @@
+[
+  {
+    "pokemon_id": 1,
+    "name": "bulbasaur",
+    "base_experience": 64,
+    "height": 7,
+    "weight": 69,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "bulbasaur",
+      "evolves_to": [
+        {
+          "species": "ivysaur",
+          "evolves_to": [
+            {
+              "species": "venusaur",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 2,
+    "name": "ivysaur",
+    "base_experience": 142,
+    "height": 10,
+    "weight": 130,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "bulbasaur",
+      "evolves_to": [
+        {
+          "species": "ivysaur",
+          "evolves_to": [
+            {
+              "species": "venusaur",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 3,
+    "name": "venusaur",
+    "base_experience": 236,
+    "height": 20,
+    "weight": 1000,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "overgrow",
+        "is_hidden": false
+      },
+      {
+        "name": "chlorophyll",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "bulbasaur",
+      "evolves_to": [
+        {
+          "species": "ivysaur",
+          "evolves_to": [
+            {
+              "species": "venusaur",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 4,
+    "name": "charmander",
+    "base_experience": 62,
+    "height": 6,
+    "weight": 85,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "special-attack": 60,
+      "special-defense": 50,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "charmander",
+      "evolves_to": [
+        {
+          "species": "charmeleon",
+          "evolves_to": [
+            {
+              "species": "charizard",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 5,
+    "name": "charmeleon",
+    "base_experience": 142,
+    "height": 11,
+    "weight": 190,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "special-attack": 80,
+      "special-defense": 65,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "charmander",
+      "evolves_to": [
+        {
+          "species": "charmeleon",
+          "evolves_to": [
+            {
+              "species": "charizard",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 6,
+    "name": "charizard",
+    "base_experience": 240,
+    "height": 17,
+    "weight": 905,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "blaze",
+        "is_hidden": false
+      },
+      {
+        "name": "solar-power",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 109,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "charmander",
+      "evolves_to": [
+        {
+          "species": "charmeleon",
+          "evolves_to": [
+            {
+              "species": "charizard",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 7,
+    "name": "squirtle",
+    "base_experience": 63,
+    "height": 5,
+    "weight": 90,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "special-attack": 50,
+      "special-defense": 64,
+      "speed": 43
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "squirtle",
+      "evolves_to": [
+        {
+          "species": "wartortle",
+          "evolves_to": [
+            {
+              "species": "blastoise",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 8,
+    "name": "wartortle",
+    "base_experience": 142,
+    "height": 10,
+    "weight": 225,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 80,
+      "speed": 58
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "squirtle",
+      "evolves_to": [
+        {
+          "species": "wartortle",
+          "evolves_to": [
+            {
+              "species": "blastoise",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 9,
+    "name": "blastoise",
+    "base_experience": 239,
+    "height": 16,
+    "weight": 855,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "torrent",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special-attack": 85,
+      "special-defense": 105,
+      "speed": 78
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "squirtle",
+      "evolves_to": [
+        {
+          "species": "wartortle",
+          "evolves_to": [
+            {
+              "species": "blastoise",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 10,
+    "name": "caterpie",
+    "base_experience": 39,
+    "height": 3,
+    "weight": 29,
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "special-attack": 20,
+      "special-defense": 20,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "caterpie",
+      "evolves_to": [
+        {
+          "species": "metapod",
+          "evolves_to": [
+            {
+              "species": "butterfree",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 11,
+    "name": "metapod",
+    "base_experience": 72,
+    "height": 7,
+    "weight": 99,
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "caterpie",
+      "evolves_to": [
+        {
+          "species": "metapod",
+          "evolves_to": [
+            {
+              "species": "butterfree",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 12,
+    "name": "butterfree",
+    "base_experience": 178,
+    "height": 11,
+    "weight": 320,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "caterpie",
+      "evolves_to": [
+        {
+          "species": "metapod",
+          "evolves_to": [
+            {
+              "species": "butterfree",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 13,
+    "name": "weedle",
+    "base_experience": 39,
+    "height": 3,
+    "weight": 32,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 20,
+      "special-defense": 20,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "weedle",
+      "evolves_to": [
+        {
+          "species": "kakuna",
+          "evolves_to": [
+            {
+              "species": "beedrill",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 14,
+    "name": "kakuna",
+    "base_experience": 72,
+    "height": 6,
+    "weight": 100,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "weedle",
+      "evolves_to": [
+        {
+          "species": "kakuna",
+          "evolves_to": [
+            {
+              "species": "beedrill",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 15,
+    "name": "beedrill",
+    "base_experience": 178,
+    "height": 10,
+    "weight": 295,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special-attack": 45,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "weedle",
+      "evolves_to": [
+        {
+          "species": "kakuna",
+          "evolves_to": [
+            {
+              "species": "beedrill",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 16,
+    "name": "pidgey",
+    "base_experience": 50,
+    "height": 3,
+    "weight": 18,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 56
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium-slow",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "pidgey",
+      "evolves_to": [
+        {
+          "species": "pidgeotto",
+          "evolves_to": [
+            {
+              "species": "pidgeot",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 17,
+    "name": "pidgeotto",
+    "base_experience": 122,
+    "height": 11,
+    "weight": 300,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 71
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "pidgey",
+      "evolves_to": [
+        {
+          "species": "pidgeotto",
+          "evolves_to": [
+            {
+              "species": "pidgeot",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 18,
+    "name": "pidgeot",
+    "base_experience": 216,
+    "height": 15,
+    "weight": 395,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": false
+      },
+      {
+        "name": "big-pecks",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 101
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "pidgey",
+      "evolves_to": [
+        {
+          "species": "pidgeotto",
+          "evolves_to": [
+            {
+              "species": "pidgeot",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 19,
+    "name": "rattata",
+    "base_experience": 51,
+    "height": 3,
+    "weight": 35,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "special-attack": 25,
+      "special-defense": 35,
+      "speed": 72
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "rattata",
+      "evolves_to": [
+        {
+          "species": "raticate",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 20,
+    "name": "raticate",
+    "base_experience": 145,
+    "height": 7,
+    "weight": 185,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 127,
+    "evolution_chain": {
+      "species": "rattata",
+      "evolves_to": [
+        {
+          "species": "raticate",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 21,
+    "name": "spearow",
+    "base_experience": 52,
+    "height": 3,
+    "weight": 20,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "special-attack": 31,
+      "special-defense": 31,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "spearow",
+      "evolves_to": [
+        {
+          "species": "fearow",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 22,
+    "name": "fearow",
+    "base_experience": 155,
+    "height": 12,
+    "weight": 380,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "special-attack": 61,
+      "special-defense": 61,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "medium",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "spearow",
+      "evolves_to": [
+        {
+          "species": "fearow",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 23,
+    "name": "ekans",
+    "base_experience": 58,
+    "height": 20,
+    "weight": 69,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "special-attack": 40,
+      "special-defense": 54,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "ekans",
+      "evolves_to": [
+        {
+          "species": "arbok",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 24,
+    "name": "arbok",
+    "base_experience": 157,
+    "height": 35,
+    "weight": 650,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "special-attack": 65,
+      "special-defense": 79,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "ekans",
+      "evolves_to": [
+        {
+          "species": "arbok",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 25,
+    "name": "pikachu",
+    "base_experience": 112,
+    "height": 4,
+    "weight": 60,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "pichu",
+      "evolves_to": [
+        {
+          "species": "pikachu",
+          "evolves_to": [
+            {
+              "species": "raichu",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 26,
+    "name": "raichu",
+    "base_experience": 218,
+    "height": 8,
+    "weight": 300,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "pichu",
+      "evolves_to": [
+        {
+          "species": "pikachu",
+          "evolves_to": [
+            {
+              "species": "raichu",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 27,
+    "name": "sandshrew",
+    "base_experience": 60,
+    "height": 6,
+    "weight": 120,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 20,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "sandshrew",
+      "evolves_to": [
+        {
+          "species": "sandslash",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 28,
+    "name": "sandslash",
+    "base_experience": 158,
+    "height": 10,
+    "weight": 295,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-rush",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "medium",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "sandshrew",
+      "evolves_to": [
+        {
+          "species": "sandslash",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 29,
+    "name": "nidoran-f",
+    "base_experience": 55,
+    "height": 4,
+    "weight": 70,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 41
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 235,
+    "evolution_chain": {
+      "species": "nidoran-f",
+      "evolves_to": [
+        {
+          "species": "nidorina",
+          "evolves_to": [
+            {
+              "species": "nidoqueen",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 30,
+    "name": "nidorina",
+    "base_experience": 128,
+    "height": 8,
+    "weight": 200,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 56
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "nidoran-f",
+      "evolves_to": [
+        {
+          "species": "nidorina",
+          "evolves_to": [
+            {
+              "species": "nidoqueen",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 31,
+    "name": "nidoqueen",
+    "base_experience": 227,
+    "height": 13,
+    "weight": 600,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "special-attack": 75,
+      "special-defense": 85,
+      "speed": 76
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "nidoran-f",
+      "evolves_to": [
+        {
+          "species": "nidorina",
+          "evolves_to": [
+            {
+              "species": "nidoqueen",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 32,
+    "name": "nidoran-m",
+    "base_experience": 55,
+    "height": 5,
+    "weight": 90,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 235,
+    "evolution_chain": {
+      "species": "nidoran-m",
+      "evolves_to": [
+        {
+          "species": "nidorino",
+          "evolves_to": [
+            {
+              "species": "nidoking",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 33,
+    "name": "nidorino",
+    "base_experience": 128,
+    "height": 9,
+    "weight": 195,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "hustle",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "nidoran-m",
+      "evolves_to": [
+        {
+          "species": "nidorino",
+          "evolves_to": [
+            {
+              "species": "nidoking",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 34,
+    "name": "nidoking",
+    "base_experience": 227,
+    "height": 14,
+    "weight": 620,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "rivalry",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "nidoran-m",
+      "evolves_to": [
+        {
+          "species": "nidorino",
+          "evolves_to": [
+            {
+              "species": "nidoking",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 35,
+    "name": "clefairy",
+    "base_experience": 113,
+    "height": 6,
+    "weight": 75,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "special-attack": 60,
+      "special-defense": 65,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "fast",
+    "capture_rate": 150,
+    "evolution_chain": {
+      "species": "cleffa",
+      "evolves_to": [
+        {
+          "species": "clefairy",
+          "evolves_to": [
+            {
+              "species": "clefable",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 36,
+    "name": "clefable",
+    "base_experience": 217,
+    "height": 13,
+    "weight": 400,
+    "types": [
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "unaware",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "special-attack": 95,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "fast",
+    "capture_rate": 25,
+    "evolution_chain": {
+      "species": "cleffa",
+      "evolves_to": [
+        {
+          "species": "clefairy",
+          "evolves_to": [
+            {
+              "species": "clefable",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 37,
+    "name": "vulpix",
+    "base_experience": 60,
+    "height": 6,
+    "weight": 99,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "drought",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "vulpix",
+      "evolves_to": [
+        {
+          "species": "ninetales",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 38,
+    "name": "ninetales",
+    "base_experience": 177,
+    "height": 11,
+    "weight": 199,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "drought",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "special-attack": 81,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "vulpix",
+      "evolves_to": [
+        {
+          "species": "ninetales",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 39,
+    "name": "jigglypuff",
+    "base_experience": 95,
+    "height": 5,
+    "weight": 55,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "friend-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "special-attack": 45,
+      "special-defense": 25,
+      "speed": 20
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "fast",
+    "capture_rate": 170,
+    "evolution_chain": {
+      "species": "igglybuff",
+      "evolves_to": [
+        {
+          "species": "jigglypuff",
+          "evolves_to": [
+            {
+              "species": "wigglytuff",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 40,
+    "name": "wigglytuff",
+    "base_experience": 196,
+    "height": 10,
+    "weight": 120,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "cute-charm",
+        "is_hidden": false
+      },
+      {
+        "name": "competitive",
+        "is_hidden": false
+      },
+      {
+        "name": "frisk",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "special-attack": 85,
+      "special-defense": 50,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "fast",
+    "capture_rate": 50,
+    "evolution_chain": {
+      "species": "igglybuff",
+      "evolves_to": [
+        {
+          "species": "jigglypuff",
+          "evolves_to": [
+            {
+              "species": "wigglytuff",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 41,
+    "name": "zubat",
+    "base_experience": 49,
+    "height": 8,
+    "weight": 75,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special-attack": 30,
+      "special-defense": 40,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "zubat",
+      "evolves_to": [
+        {
+          "species": "golbat",
+          "evolves_to": [
+            {
+              "species": "crobat",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 42,
+    "name": "golbat",
+    "base_experience": 159,
+    "height": 16,
+    "weight": 550,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "infiltrator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "zubat",
+      "evolves_to": [
+        {
+          "species": "golbat",
+          "evolves_to": [
+            {
+              "species": "crobat",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 43,
+    "name": "oddish",
+    "base_experience": 64,
+    "height": 5,
+    "weight": 54,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "special-attack": 75,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "oddish",
+      "evolves_to": [
+        {
+          "species": "gloom",
+          "evolves_to": [
+            {
+              "species": "vileplume",
+              "evolves_to": []
+            },
+            {
+              "species": "bellossom",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 44,
+    "name": "gloom",
+    "base_experience": 138,
+    "height": 8,
+    "weight": 86,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "stench",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "oddish",
+      "evolves_to": [
+        {
+          "species": "gloom",
+          "evolves_to": [
+            {
+              "species": "vileplume",
+              "evolves_to": []
+            },
+            {
+              "species": "bellossom",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 45,
+    "name": "vileplume",
+    "base_experience": 221,
+    "height": 12,
+    "weight": 186,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "effect-spore",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "special-attack": 110,
+      "special-defense": 90,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "oddish",
+      "evolves_to": [
+        {
+          "species": "gloom",
+          "evolves_to": [
+            {
+              "species": "vileplume",
+              "evolves_to": []
+            },
+            {
+              "species": "bellossom",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 46,
+    "name": "paras",
+    "base_experience": 57,
+    "height": 3,
+    "weight": 54,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "effect-spore",
+        "is_hidden": false
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 25
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "paras",
+      "evolves_to": [
+        {
+          "species": "parasect",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 47,
+    "name": "parasect",
+    "base_experience": 142,
+    "height": 10,
+    "weight": 295,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "effect-spore",
+        "is_hidden": false
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "paras",
+      "evolves_to": [
+        {
+          "species": "parasect",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 48,
+    "name": "venonat",
+    "base_experience": 61,
+    "height": 10,
+    "weight": 300,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "compound-eyes",
+        "is_hidden": false
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": false
+      },
+      {
+        "name": "run-away",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 55,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "venonat",
+      "evolves_to": [
+        {
+          "species": "venomoth",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 49,
+    "name": "venomoth",
+    "base_experience": 158,
+    "height": 15,
+    "weight": 125,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "shield-dust",
+        "is_hidden": false
+      },
+      {
+        "name": "tinted-lens",
+        "is_hidden": false
+      },
+      {
+        "name": "wonder-skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 90,
+      "special-defense": 75,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "venonat",
+      "evolves_to": [
+        {
+          "species": "venomoth",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 50,
+    "name": "diglett",
+    "base_experience": 53,
+    "height": 2,
+    "weight": 8,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "arena-trap",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "diglett",
+      "evolves_to": [
+        {
+          "species": "dugtrio",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 51,
+    "name": "dugtrio",
+    "base_experience": 149,
+    "height": 7,
+    "weight": 333,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "sand-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "arena-trap",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 120
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium",
+    "capture_rate": 50,
+    "evolution_chain": {
+      "species": "diglett",
+      "evolves_to": [
+        {
+          "species": "dugtrio",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 52,
+    "name": "meowth",
+    "base_experience": 58,
+    "height": 4,
+    "weight": 42,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "pickup",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "meowth",
+      "evolves_to": [
+        {
+          "species": "persian",
+          "evolves_to": []
+        },
+        {
+          "species": "perrserker",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 53,
+    "name": "persian",
+    "base_experience": 154,
+    "height": 10,
+    "weight": 320,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 115
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "meowth",
+      "evolves_to": [
+        {
+          "species": "persian",
+          "evolves_to": []
+        },
+        {
+          "species": "perrserker",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 54,
+    "name": "psyduck",
+    "base_experience": 64,
+    "height": 8,
+    "weight": 196,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "psyduck",
+      "evolves_to": [
+        {
+          "species": "golduck",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 55,
+    "name": "golduck",
+    "base_experience": 175,
+    "height": 17,
+    "weight": 766,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "special-attack": 95,
+      "special-defense": 80,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "psyduck",
+      "evolves_to": [
+        {
+          "species": "golduck",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 56,
+    "name": "mankey",
+    "base_experience": 61,
+    "height": 5,
+    "weight": 280,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "mankey",
+      "evolves_to": [
+        {
+          "species": "primeape",
+          "evolves_to": [
+            {
+              "species": "annihilape",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 57,
+    "name": "primeape",
+    "base_experience": 159,
+    "height": 10,
+    "weight": 320,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "vital-spirit",
+        "is_hidden": false
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "mankey",
+      "evolves_to": [
+        {
+          "species": "primeape",
+          "evolves_to": [
+            {
+              "species": "annihilape",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 58,
+    "name": "growlithe",
+    "base_experience": 70,
+    "height": 7,
+    "weight": 190,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "special-attack": 70,
+      "special-defense": 50,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "slow",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "growlithe",
+      "evolves_to": [
+        {
+          "species": "arcanine",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 59,
+    "name": "arcanine",
+    "base_experience": 194,
+    "height": 19,
+    "weight": 1550,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "justified",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "slow",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "growlithe",
+      "evolves_to": [
+        {
+          "species": "arcanine",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 60,
+    "name": "poliwag",
+    "base_experience": 60,
+    "height": 6,
+    "weight": 124,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium-slow",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "poliwag",
+      "evolves_to": [
+        {
+          "species": "poliwhirl",
+          "evolves_to": [
+            {
+              "species": "poliwrath",
+              "evolves_to": []
+            },
+            {
+              "species": "politoed",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 61,
+    "name": "poliwhirl",
+    "base_experience": 135,
+    "height": 10,
+    "weight": 200,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "poliwag",
+      "evolves_to": [
+        {
+          "species": "poliwhirl",
+          "evolves_to": [
+            {
+              "species": "poliwrath",
+              "evolves_to": []
+            },
+            {
+              "species": "politoed",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 62,
+    "name": "poliwrath",
+    "base_experience": 230,
+    "height": 13,
+    "weight": 540,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": false
+      },
+      {
+        "name": "swift-swim",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "special-attack": 70,
+      "special-defense": 90,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "poliwag",
+      "evolves_to": [
+        {
+          "species": "poliwhirl",
+          "evolves_to": [
+            {
+              "species": "poliwrath",
+              "evolves_to": []
+            },
+            {
+              "species": "politoed",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 63,
+    "name": "abra",
+    "base_experience": 62,
+    "height": 9,
+    "weight": 195,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "special-attack": 105,
+      "special-defense": 55,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium-slow",
+    "capture_rate": 200,
+    "evolution_chain": {
+      "species": "abra",
+      "evolves_to": [
+        {
+          "species": "kadabra",
+          "evolves_to": [
+            {
+              "species": "alakazam",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 64,
+    "name": "kadabra",
+    "base_experience": 140,
+    "height": 13,
+    "weight": 565,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 120,
+      "special-defense": 70,
+      "speed": 105
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium-slow",
+    "capture_rate": 100,
+    "evolution_chain": {
+      "species": "abra",
+      "evolves_to": [
+        {
+          "species": "kadabra",
+          "evolves_to": [
+            {
+              "species": "alakazam",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 65,
+    "name": "alakazam",
+    "base_experience": 225,
+    "height": 15,
+    "weight": 480,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "magic-guard",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 135,
+      "special-defense": 95,
+      "speed": 120
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium-slow",
+    "capture_rate": 50,
+    "evolution_chain": {
+      "species": "abra",
+      "evolves_to": [
+        {
+          "species": "kadabra",
+          "evolves_to": [
+            {
+              "species": "alakazam",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 66,
+    "name": "machop",
+    "base_experience": 61,
+    "height": 8,
+    "weight": 195,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 180,
+    "evolution_chain": {
+      "species": "machop",
+      "evolves_to": [
+        {
+          "species": "machoke",
+          "evolves_to": [
+            {
+              "species": "machamp",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 67,
+    "name": "machoke",
+    "base_experience": 142,
+    "height": 15,
+    "weight": 705,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 50,
+      "special-defense": 60,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "machop",
+      "evolves_to": [
+        {
+          "species": "machoke",
+          "evolves_to": [
+            {
+              "species": "machamp",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 68,
+    "name": "machamp",
+    "base_experience": 227,
+    "height": 16,
+    "weight": 1300,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "guts",
+        "is_hidden": false
+      },
+      {
+        "name": "no-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 85,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "machop",
+      "evolves_to": [
+        {
+          "species": "machoke",
+          "evolves_to": [
+            {
+              "species": "machamp",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 69,
+    "name": "bellsprout",
+    "base_experience": 60,
+    "height": 7,
+    "weight": 40,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "special-attack": 70,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium-slow",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "bellsprout",
+      "evolves_to": [
+        {
+          "species": "weepinbell",
+          "evolves_to": [
+            {
+              "species": "victreebel",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 70,
+    "name": "weepinbell",
+    "base_experience": 137,
+    "height": 10,
+    "weight": 64,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "special-attack": 85,
+      "special-defense": 45,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "bellsprout",
+      "evolves_to": [
+        {
+          "species": "weepinbell",
+          "evolves_to": [
+            {
+              "species": "victreebel",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 71,
+    "name": "victreebel",
+    "base_experience": 221,
+    "height": 17,
+    "weight": 155,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "bellsprout",
+      "evolves_to": [
+        {
+          "species": "weepinbell",
+          "evolves_to": [
+            {
+              "species": "victreebel",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 72,
+    "name": "tentacool",
+    "base_experience": 67,
+    "height": 9,
+    "weight": 455,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false
+      },
+      {
+        "name": "liquid-ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "tentacool",
+      "evolves_to": [
+        {
+          "species": "tentacruel",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 73,
+    "name": "tentacruel",
+    "base_experience": 180,
+    "height": 16,
+    "weight": 550,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "clear-body",
+        "is_hidden": false
+      },
+      {
+        "name": "liquid-ooze",
+        "is_hidden": false
+      },
+      {
+        "name": "rain-dish",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "special-attack": 80,
+      "special-defense": 120,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "tentacool",
+      "evolves_to": [
+        {
+          "species": "tentacruel",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 74,
+    "name": "geodude",
+    "base_experience": 60,
+    "height": 4,
+    "weight": 200,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 20
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "geodude",
+      "evolves_to": [
+        {
+          "species": "graveler",
+          "evolves_to": [
+            {
+              "species": "golem",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 75,
+    "name": "graveler",
+    "base_experience": 137,
+    "height": 10,
+    "weight": 1050,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "geodude",
+      "evolves_to": [
+        {
+          "species": "graveler",
+          "evolves_to": [
+            {
+              "species": "golem",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 76,
+    "name": "golem",
+    "base_experience": 223,
+    "height": 14,
+    "weight": 3000,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "sand-veil",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "geodude",
+      "evolves_to": [
+        {
+          "species": "graveler",
+          "evolves_to": [
+            {
+              "species": "golem",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 77,
+    "name": "ponyta",
+    "base_experience": 82,
+    "height": 10,
+    "weight": 300,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "ponyta",
+      "evolves_to": [
+        {
+          "species": "rapidash",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 78,
+    "name": "rapidash",
+    "base_experience": 175,
+    "height": 17,
+    "weight": 950,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "ponyta",
+      "evolves_to": [
+        {
+          "species": "rapidash",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 79,
+    "name": "slowpoke",
+    "base_experience": 63,
+    "height": 12,
+    "weight": 360,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 15
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "slowpoke",
+      "evolves_to": [
+        {
+          "species": "slowbro",
+          "evolves_to": []
+        },
+        {
+          "species": "slowking",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 80,
+    "name": "slowbro",
+    "base_experience": 172,
+    "height": 16,
+    "weight": 785,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "own-tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "slowpoke",
+      "evolves_to": [
+        {
+          "species": "slowbro",
+          "evolves_to": []
+        },
+        {
+          "species": "slowking",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 81,
+    "name": "magnemite",
+    "base_experience": 65,
+    "height": 3,
+    "weight": 60,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "special-attack": 95,
+      "special-defense": 55,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "magnemite",
+      "evolves_to": [
+        {
+          "species": "magneton",
+          "evolves_to": [
+            {
+              "species": "magnezone",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 82,
+    "name": "magneton",
+    "base_experience": 163,
+    "height": 10,
+    "weight": 600,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "abilities": [
+      {
+        "name": "magnet-pull",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "special-attack": 120,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "medium",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "magnemite",
+      "evolves_to": [
+        {
+          "species": "magneton",
+          "evolves_to": [
+            {
+              "species": "magnezone",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 83,
+    "name": "farfetchd",
+    "base_experience": 132,
+    "height": 8,
+    "weight": 150,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "defiant",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "special-attack": 58,
+      "special-defense": 62,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "farfetchd",
+      "evolves_to": [
+        {
+          "species": "sirfetchd",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 84,
+    "name": "doduo",
+    "base_experience": 62,
+    "height": 14,
+    "weight": 392,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "doduo",
+      "evolves_to": [
+        {
+          "species": "dodrio",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 85,
+    "name": "dodrio",
+    "base_experience": 165,
+    "height": 18,
+    "weight": 852,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "early-bird",
+        "is_hidden": false
+      },
+      {
+        "name": "tangled-feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "doduo",
+      "evolves_to": [
+        {
+          "species": "dodrio",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 86,
+    "name": "seel",
+    "base_experience": 65,
+    "height": 11,
+    "weight": 900,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "special-attack": 45,
+      "special-defense": 70,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "seel",
+      "evolves_to": [
+        {
+          "species": "dewgong",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 87,
+    "name": "dewgong",
+    "base_experience": 166,
+    "height": 17,
+    "weight": 1200,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "thick-fat",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": false
+      },
+      {
+        "name": "ice-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 95,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "seel",
+      "evolves_to": [
+        {
+          "species": "dewgong",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 88,
+    "name": "grimer",
+    "base_experience": 65,
+    "height": 9,
+    "weight": 300,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "name": "sticky-hold",
+        "is_hidden": false
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 25
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "grimer",
+      "evolves_to": [
+        {
+          "species": "muk",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 89,
+    "name": "muk",
+    "base_experience": 175,
+    "height": 12,
+    "weight": 300,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "stench",
+        "is_hidden": false
+      },
+      {
+        "name": "sticky-hold",
+        "is_hidden": false
+      },
+      {
+        "name": "poison-touch",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "special-attack": 65,
+      "special-defense": 100,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "grimer",
+      "evolves_to": [
+        {
+          "species": "muk",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 90,
+    "name": "shellder",
+    "base_experience": 61,
+    "height": 3,
+    "weight": 40,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "special-attack": 45,
+      "special-defense": 25,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "shellder",
+      "evolves_to": [
+        {
+          "species": "cloyster",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 91,
+    "name": "cloyster",
+    "base_experience": 184,
+    "height": 15,
+    "weight": 1325,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "skill-link",
+        "is_hidden": false
+      },
+      {
+        "name": "overcoat",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "special-attack": 85,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "shellder",
+      "evolves_to": [
+        {
+          "species": "cloyster",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 92,
+    "name": "gastly",
+    "base_experience": 62,
+    "height": 13,
+    "weight": 1,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 100,
+      "special-defense": 35,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium-slow",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "gastly",
+      "evolves_to": [
+        {
+          "species": "haunter",
+          "evolves_to": [
+            {
+              "species": "gengar",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 93,
+    "name": "haunter",
+    "base_experience": 142,
+    "height": 16,
+    "weight": 1,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 115,
+      "special-defense": 55,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium-slow",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "gastly",
+      "evolves_to": [
+        {
+          "species": "haunter",
+          "evolves_to": [
+            {
+              "species": "gengar",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 94,
+    "name": "gengar",
+    "base_experience": 225,
+    "height": 15,
+    "weight": 405,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "cursed-body",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 130,
+      "special-defense": 75,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "gastly",
+      "evolves_to": [
+        {
+          "species": "haunter",
+          "evolves_to": [
+            {
+              "species": "gengar",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 95,
+    "name": "onix",
+    "base_experience": 77,
+    "height": 88,
+    "weight": 2100,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "sturdy",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "special-attack": 30,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "cave",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "onix",
+      "evolves_to": [
+        {
+          "species": "steelix",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 96,
+    "name": "drowzee",
+    "base_experience": 66,
+    "height": 10,
+    "weight": 324,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "special-attack": 43,
+      "special-defense": 90,
+      "speed": 42
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "drowzee",
+      "evolves_to": [
+        {
+          "species": "hypno",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 97,
+    "name": "hypno",
+    "base_experience": 169,
+    "height": 16,
+    "weight": 756,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "insomnia",
+        "is_hidden": false
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "special-attack": 73,
+      "special-defense": 115,
+      "speed": 67
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "drowzee",
+      "evolves_to": [
+        {
+          "species": "hypno",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 98,
+    "name": "krabby",
+    "base_experience": 65,
+    "height": 4,
+    "weight": 65,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 225,
+    "evolution_chain": {
+      "species": "krabby",
+      "evolves_to": [
+        {
+          "species": "kingler",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 99,
+    "name": "kingler",
+    "base_experience": 166,
+    "height": 13,
+    "weight": 600,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "krabby",
+      "evolves_to": [
+        {
+          "species": "kingler",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 100,
+    "name": "voltorb",
+    "base_experience": 66,
+    "height": 5,
+    "weight": 104,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "voltorb",
+      "evolves_to": [
+        {
+          "species": "electrode",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 101,
+    "name": "electrode",
+    "base_experience": 172,
+    "height": 12,
+    "weight": 666,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "aftermath",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 150
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "voltorb",
+      "evolves_to": [
+        {
+          "species": "electrode",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 102,
+    "name": "exeggcute",
+    "base_experience": 65,
+    "height": 4,
+    "weight": 25,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 45,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "slow",
+    "capture_rate": 90,
+    "evolution_chain": {
+      "species": "exeggcute",
+      "evolves_to": [
+        {
+          "species": "exeggutor",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 103,
+    "name": "exeggutor",
+    "base_experience": 186,
+    "height": 20,
+    "weight": 1200,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "harvest",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 75,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "exeggcute",
+      "evolves_to": [
+        {
+          "species": "exeggutor",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 104,
+    "name": "cubone",
+    "base_experience": 64,
+    "height": 4,
+    "weight": 65,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "cubone",
+      "evolves_to": [
+        {
+          "species": "marowak",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 105,
+    "name": "marowak",
+    "base_experience": 149,
+    "height": 10,
+    "weight": 450,
+    "types": [
+      "ground"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "special-attack": 50,
+      "special-defense": 80,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "cubone",
+      "evolves_to": [
+        {
+          "species": "marowak",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 106,
+    "name": "hitmonlee",
+    "base_experience": 159,
+    "height": 15,
+    "weight": 498,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "name": "reckless",
+        "is_hidden": false
+      },
+      {
+        "name": "unburden",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "special-attack": 35,
+      "special-defense": 110,
+      "speed": 87
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "tyrogue",
+      "evolves_to": [
+        {
+          "species": "hitmonlee",
+          "evolves_to": []
+        },
+        {
+          "species": "hitmonchan",
+          "evolves_to": []
+        },
+        {
+          "species": "hitmontop",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 107,
+    "name": "hitmonchan",
+    "base_experience": 159,
+    "height": 14,
+    "weight": 502,
+    "types": [
+      "fighting"
+    ],
+    "abilities": [
+      {
+        "name": "keen-eye",
+        "is_hidden": false
+      },
+      {
+        "name": "iron-fist",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "special-attack": 35,
+      "special-defense": 110,
+      "speed": 76
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "tyrogue",
+      "evolves_to": [
+        {
+          "species": "hitmonlee",
+          "evolves_to": []
+        },
+        {
+          "species": "hitmonchan",
+          "evolves_to": []
+        },
+        {
+          "species": "hitmontop",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 108,
+    "name": "lickitung",
+    "base_experience": 77,
+    "height": 12,
+    "weight": 655,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "own-tempo",
+        "is_hidden": false
+      },
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "cloud-nine",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "lickitung",
+      "evolves_to": [
+        {
+          "species": "lickilicky",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 109,
+    "name": "koffing",
+    "base_experience": 68,
+    "height": 6,
+    "weight": 10,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "neutralizing-gas",
+        "is_hidden": false
+      },
+      {
+        "name": "stench",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "special-attack": 60,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 190,
+    "evolution_chain": {
+      "species": "koffing",
+      "evolves_to": [
+        {
+          "species": "weezing",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 110,
+    "name": "weezing",
+    "base_experience": 172,
+    "height": 12,
+    "weight": 95,
+    "types": [
+      "poison"
+    ],
+    "abilities": [
+      {
+        "name": "levitate",
+        "is_hidden": false
+      },
+      {
+        "name": "neutralizing-gas",
+        "is_hidden": false
+      },
+      {
+        "name": "stench",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "special-attack": 85,
+      "special-defense": 70,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "koffing",
+      "evolves_to": [
+        {
+          "species": "weezing",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 111,
+    "name": "rhyhorn",
+    "base_experience": 69,
+    "height": 10,
+    "weight": 1150,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 25
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "slow",
+    "capture_rate": 120,
+    "evolution_chain": {
+      "species": "rhyhorn",
+      "evolves_to": [
+        {
+          "species": "rhydon",
+          "evolves_to": [
+            {
+              "species": "rhyperior",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 112,
+    "name": "rhydon",
+    "base_experience": 170,
+    "height": 19,
+    "weight": 1200,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "abilities": [
+      {
+        "name": "lightning-rod",
+        "is_hidden": false
+      },
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "reckless",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "rough-terrain",
+    "growth_rate": "slow",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "rhyhorn",
+      "evolves_to": [
+        {
+          "species": "rhydon",
+          "evolves_to": [
+            {
+              "species": "rhyperior",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 113,
+    "name": "chansey",
+    "base_experience": 395,
+    "height": 11,
+    "weight": 346,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "natural-cure",
+        "is_hidden": false
+      },
+      {
+        "name": "serene-grace",
+        "is_hidden": false
+      },
+      {
+        "name": "healer",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "special-attack": 35,
+      "special-defense": 105,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "fast",
+    "capture_rate": 30,
+    "evolution_chain": {
+      "species": "happiny",
+      "evolves_to": [
+        {
+          "species": "chansey",
+          "evolves_to": [
+            {
+              "species": "blissey",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 114,
+    "name": "tangela",
+    "base_experience": 87,
+    "height": 10,
+    "weight": 350,
+    "types": [
+      "grass"
+    ],
+    "abilities": [
+      {
+        "name": "chlorophyll",
+        "is_hidden": false
+      },
+      {
+        "name": "leaf-guard",
+        "is_hidden": false
+      },
+      {
+        "name": "regenerator",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "special-attack": 100,
+      "special-defense": 40,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "tangela",
+      "evolves_to": [
+        {
+          "species": "tangrowth",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 115,
+    "name": "kangaskhan",
+    "base_experience": 172,
+    "height": 22,
+    "weight": 800,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "early-bird",
+        "is_hidden": false
+      },
+      {
+        "name": "scrappy",
+        "is_hidden": false
+      },
+      {
+        "name": "inner-focus",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "special-attack": 40,
+      "special-defense": 80,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "kangaskhan",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 116,
+    "name": "horsea",
+    "base_experience": 59,
+    "height": 4,
+    "weight": 80,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "special-attack": 70,
+      "special-defense": 25,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 225,
+    "evolution_chain": {
+      "species": "horsea",
+      "evolves_to": [
+        {
+          "species": "seadra",
+          "evolves_to": [
+            {
+              "species": "kingdra",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 117,
+    "name": "seadra",
+    "base_experience": 154,
+    "height": 12,
+    "weight": 250,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "poison-point",
+        "is_hidden": false
+      },
+      {
+        "name": "sniper",
+        "is_hidden": false
+      },
+      {
+        "name": "damp",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "special-attack": 95,
+      "special-defense": 45,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 75,
+    "evolution_chain": {
+      "species": "horsea",
+      "evolves_to": [
+        {
+          "species": "seadra",
+          "evolves_to": [
+            {
+              "species": "kingdra",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 118,
+    "name": "goldeen",
+    "base_experience": 64,
+    "height": 6,
+    "weight": 150,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "special-attack": 35,
+      "special-defense": 50,
+      "speed": 63
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 225,
+    "evolution_chain": {
+      "species": "goldeen",
+      "evolves_to": [
+        {
+          "species": "seaking",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 119,
+    "name": "seaking",
+    "base_experience": 158,
+    "height": 13,
+    "weight": 390,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "water-veil",
+        "is_hidden": false
+      },
+      {
+        "name": "lightning-rod",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 80,
+      "speed": 68
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "medium",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "goldeen",
+      "evolves_to": [
+        {
+          "species": "seaking",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 120,
+    "name": "staryu",
+    "base_experience": 68,
+    "height": 8,
+    "weight": 345,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "special-attack": 70,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 225,
+    "evolution_chain": {
+      "species": "staryu",
+      "evolves_to": [
+        {
+          "species": "starmie",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 121,
+    "name": "starmie",
+    "base_experience": 182,
+    "height": 11,
+    "weight": 800,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "illuminate",
+        "is_hidden": false
+      },
+      {
+        "name": "natural-cure",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 115
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 60,
+    "evolution_chain": {
+      "species": "staryu",
+      "evolves_to": [
+        {
+          "species": "starmie",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 122,
+    "name": "mr-mime",
+    "base_experience": 161,
+    "height": 13,
+    "weight": 545,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "abilities": [
+      {
+        "name": "soundproof",
+        "is_hidden": false
+      },
+      {
+        "name": "filter",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 120,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "mime-jr",
+      "evolves_to": [
+        {
+          "species": "mr-mime",
+          "evolves_to": [
+            {
+              "species": "mr-rime",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 123,
+    "name": "scyther",
+    "base_experience": 100,
+    "height": 15,
+    "weight": 560,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "swarm",
+        "is_hidden": false
+      },
+      {
+        "name": "technician",
+        "is_hidden": false
+      },
+      {
+        "name": "steadfast",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "scyther",
+      "evolves_to": [
+        {
+          "species": "scizor",
+          "evolves_to": []
+        },
+        {
+          "species": "kleavor",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 124,
+    "name": "jynx",
+    "base_experience": 159,
+    "height": 14,
+    "weight": 406,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "oblivious",
+        "is_hidden": false
+      },
+      {
+        "name": "forewarn",
+        "is_hidden": false
+      },
+      {
+        "name": "dry-skin",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "special-attack": 115,
+      "special-defense": 95,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "smoochum",
+      "evolves_to": [
+        {
+          "species": "jynx",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 125,
+    "name": "electabuzz",
+    "base_experience": 172,
+    "height": 11,
+    "weight": 300,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "static",
+        "is_hidden": false
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "special-attack": 95,
+      "special-defense": 85,
+      "speed": 105
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "elekid",
+      "evolves_to": [
+        {
+          "species": "electabuzz",
+          "evolves_to": [
+            {
+              "species": "electivire",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 126,
+    "name": "magmar",
+    "base_experience": 173,
+    "height": 13,
+    "weight": 445,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flame-body",
+        "is_hidden": false
+      },
+      {
+        "name": "vital-spirit",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 93
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "magby",
+      "evolves_to": [
+        {
+          "species": "magmar",
+          "evolves_to": [
+            {
+              "species": "magmortar",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 127,
+    "name": "pinsir",
+    "base_experience": 175,
+    "height": 15,
+    "weight": 550,
+    "types": [
+      "bug"
+    ],
+    "abilities": [
+      {
+        "name": "hyper-cutter",
+        "is_hidden": false
+      },
+      {
+        "name": "mold-breaker",
+        "is_hidden": false
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 55,
+      "special-defense": 70,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "forest",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "pinsir",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 128,
+    "name": "tauros",
+    "base_experience": 172,
+    "height": 14,
+    "weight": 884,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "anger-point",
+        "is_hidden": false
+      },
+      {
+        "name": "sheer-force",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special-attack": 40,
+      "special-defense": 70,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "grassland",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "tauros",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 129,
+    "name": "magikarp",
+    "base_experience": 40,
+    "height": 9,
+    "weight": 100,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "rattled",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "special-attack": 15,
+      "special-defense": 20,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "slow",
+    "capture_rate": 255,
+    "evolution_chain": {
+      "species": "magikarp",
+      "evolves_to": [
+        {
+          "species": "gyarados",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 130,
+    "name": "gyarados",
+    "base_experience": 189,
+    "height": 65,
+    "weight": 2350,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "intimidate",
+        "is_hidden": false
+      },
+      {
+        "name": "moxie",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 81
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "magikarp",
+      "evolves_to": [
+        {
+          "species": "gyarados",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 131,
+    "name": "lapras",
+    "base_experience": 187,
+    "height": 25,
+    "weight": 2200,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 95,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "lapras",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 132,
+    "name": "ditto",
+    "base_experience": 101,
+    "height": 3,
+    "weight": 40,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "limber",
+        "is_hidden": false
+      },
+      {
+        "name": "imposter",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "special-attack": 48,
+      "special-defense": 48,
+      "speed": 48
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 35,
+    "evolution_chain": {
+      "species": "ditto",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 133,
+    "name": "eevee",
+    "base_experience": 65,
+    "height": 3,
+    "weight": 65,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "run-away",
+        "is_hidden": false
+      },
+      {
+        "name": "adaptability",
+        "is_hidden": false
+      },
+      {
+        "name": "anticipation",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "special-attack": 45,
+      "special-defense": 65,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "eevee",
+      "evolves_to": [
+        {
+          "species": "vaporeon",
+          "evolves_to": []
+        },
+        {
+          "species": "jolteon",
+          "evolves_to": []
+        },
+        {
+          "species": "flareon",
+          "evolves_to": []
+        },
+        {
+          "species": "espeon",
+          "evolves_to": []
+        },
+        {
+          "species": "umbreon",
+          "evolves_to": []
+        },
+        {
+          "species": "leafeon",
+          "evolves_to": []
+        },
+        {
+          "species": "glaceon",
+          "evolves_to": []
+        },
+        {
+          "species": "sylveon",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 134,
+    "name": "vaporeon",
+    "base_experience": 184,
+    "height": 10,
+    "weight": 290,
+    "types": [
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "water-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "hydration",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "eevee",
+      "evolves_to": [
+        {
+          "species": "vaporeon",
+          "evolves_to": []
+        },
+        {
+          "species": "jolteon",
+          "evolves_to": []
+        },
+        {
+          "species": "flareon",
+          "evolves_to": []
+        },
+        {
+          "species": "espeon",
+          "evolves_to": []
+        },
+        {
+          "species": "umbreon",
+          "evolves_to": []
+        },
+        {
+          "species": "leafeon",
+          "evolves_to": []
+        },
+        {
+          "species": "glaceon",
+          "evolves_to": []
+        },
+        {
+          "species": "sylveon",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 135,
+    "name": "jolteon",
+    "base_experience": 184,
+    "height": 8,
+    "weight": 245,
+    "types": [
+      "electric"
+    ],
+    "abilities": [
+      {
+        "name": "volt-absorb",
+        "is_hidden": false
+      },
+      {
+        "name": "quick-feet",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "eevee",
+      "evolves_to": [
+        {
+          "species": "vaporeon",
+          "evolves_to": []
+        },
+        {
+          "species": "jolteon",
+          "evolves_to": []
+        },
+        {
+          "species": "flareon",
+          "evolves_to": []
+        },
+        {
+          "species": "espeon",
+          "evolves_to": []
+        },
+        {
+          "species": "umbreon",
+          "evolves_to": []
+        },
+        {
+          "species": "leafeon",
+          "evolves_to": []
+        },
+        {
+          "species": "glaceon",
+          "evolves_to": []
+        },
+        {
+          "species": "sylveon",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 136,
+    "name": "flareon",
+    "base_experience": 184,
+    "height": 9,
+    "weight": 250,
+    "types": [
+      "fire"
+    ],
+    "abilities": [
+      {
+        "name": "flash-fire",
+        "is_hidden": false
+      },
+      {
+        "name": "guts",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "eevee",
+      "evolves_to": [
+        {
+          "species": "vaporeon",
+          "evolves_to": []
+        },
+        {
+          "species": "jolteon",
+          "evolves_to": []
+        },
+        {
+          "species": "flareon",
+          "evolves_to": []
+        },
+        {
+          "species": "espeon",
+          "evolves_to": []
+        },
+        {
+          "species": "umbreon",
+          "evolves_to": []
+        },
+        {
+          "species": "leafeon",
+          "evolves_to": []
+        },
+        {
+          "species": "glaceon",
+          "evolves_to": []
+        },
+        {
+          "species": "sylveon",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 137,
+    "name": "porygon",
+    "base_experience": 79,
+    "height": 8,
+    "weight": 365,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "trace",
+        "is_hidden": false
+      },
+      {
+        "name": "download",
+        "is_hidden": false
+      },
+      {
+        "name": "analytic",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "urban",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "porygon",
+      "evolves_to": [
+        {
+          "species": "porygon2",
+          "evolves_to": [
+            {
+              "species": "porygon-z",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 138,
+    "name": "omanyte",
+    "base_experience": 71,
+    "height": 4,
+    "weight": 75,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "special-attack": 90,
+      "special-defense": 55,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "omanyte",
+      "evolves_to": [
+        {
+          "species": "omastar",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 139,
+    "name": "omastar",
+    "base_experience": 173,
+    "height": 10,
+    "weight": 350,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "shell-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "special-attack": 115,
+      "special-defense": 70,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "omanyte",
+      "evolves_to": [
+        {
+          "species": "omastar",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 140,
+    "name": "kabuto",
+    "base_experience": 71,
+    "height": 5,
+    "weight": 115,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "special-attack": 55,
+      "special-defense": 45,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "kabuto",
+      "evolves_to": [
+        {
+          "species": "kabutops",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 141,
+    "name": "kabutops",
+    "base_experience": 173,
+    "height": 13,
+    "weight": 405,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "abilities": [
+      {
+        "name": "swift-swim",
+        "is_hidden": false
+      },
+      {
+        "name": "battle-armor",
+        "is_hidden": false
+      },
+      {
+        "name": "weak-armor",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "special-attack": 65,
+      "special-defense": 70,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "sea",
+    "growth_rate": "medium",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "kabuto",
+      "evolves_to": [
+        {
+          "species": "kabutops",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 142,
+    "name": "aerodactyl",
+    "base_experience": 180,
+    "height": 18,
+    "weight": 590,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "rock-head",
+        "is_hidden": false
+      },
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "aerodactyl",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 143,
+    "name": "snorlax",
+    "base_experience": 189,
+    "height": 21,
+    "weight": 4600,
+    "types": [
+      "normal"
+    ],
+    "abilities": [
+      {
+        "name": "immunity",
+        "is_hidden": false
+      },
+      {
+        "name": "thick-fat",
+        "is_hidden": false
+      },
+      {
+        "name": "gluttony",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 110,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "mountain",
+    "growth_rate": "slow",
+    "capture_rate": 25,
+    "evolution_chain": {
+      "species": "munchlax",
+      "evolves_to": [
+        {
+          "species": "snorlax",
+          "evolves_to": []
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 144,
+    "name": "articuno",
+    "base_experience": 261,
+    "height": 17,
+    "weight": 554,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "snow-cloak",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 125,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+    "generation": "generation-i",
+    "is_legendary": true,
+    "is_mythical": false,
+    "habitat": "rare",
+    "growth_rate": "slow",
+    "capture_rate": 3,
+    "evolution_chain": {
+      "species": "articuno",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 145,
+    "name": "zapdos",
+    "base_experience": 261,
+    "height": 16,
+    "weight": 526,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "static",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 90,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "generation": "generation-i",
+    "is_legendary": true,
+    "is_mythical": false,
+    "habitat": "rare",
+    "growth_rate": "slow",
+    "capture_rate": 3,
+    "evolution_chain": {
+      "species": "zapdos",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 146,
+    "name": "moltres",
+    "base_experience": 261,
+    "height": 20,
+    "weight": 600,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "flame-body",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "special-attack": 125,
+      "special-defense": 85,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+    "generation": "generation-i",
+    "is_legendary": true,
+    "is_mythical": false,
+    "habitat": "rare",
+    "growth_rate": "slow",
+    "capture_rate": 3,
+    "evolution_chain": {
+      "species": "moltres",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 147,
+    "name": "dratini",
+    "base_experience": 60,
+    "height": 18,
+    "weight": 33,
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "marvel-scale",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "dratini",
+      "evolves_to": [
+        {
+          "species": "dragonair",
+          "evolves_to": [
+            {
+              "species": "dragonite",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 148,
+    "name": "dragonair",
+    "base_experience": 147,
+    "height": 40,
+    "weight": 165,
+    "types": [
+      "dragon"
+    ],
+    "abilities": [
+      {
+        "name": "shed-skin",
+        "is_hidden": false
+      },
+      {
+        "name": "marvel-scale",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "dratini",
+      "evolves_to": [
+        {
+          "species": "dragonair",
+          "evolves_to": [
+            {
+              "species": "dragonite",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 149,
+    "name": "dragonite",
+    "base_experience": 270,
+    "height": 22,
+    "weight": 2100,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "abilities": [
+      {
+        "name": "inner-focus",
+        "is_hidden": false
+      },
+      {
+        "name": "multiscale",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": false,
+    "habitat": "waters-edge",
+    "growth_rate": "slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "dratini",
+      "evolves_to": [
+        {
+          "species": "dragonair",
+          "evolves_to": [
+            {
+              "species": "dragonite",
+              "evolves_to": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "pokemon_id": 150,
+    "name": "mewtwo",
+    "base_experience": 306,
+    "height": 20,
+    "weight": 1220,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "pressure",
+        "is_hidden": false
+      },
+      {
+        "name": "unnerve",
+        "is_hidden": true
+      }
+    ],
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "special-attack": 154,
+      "special-defense": 90,
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "generation": "generation-i",
+    "is_legendary": true,
+    "is_mythical": false,
+    "habitat": "rare",
+    "growth_rate": "slow",
+    "capture_rate": 3,
+    "evolution_chain": {
+      "species": "mewtwo",
+      "evolves_to": []
+    }
+  },
+  {
+    "pokemon_id": 151,
+    "name": "mew",
+    "base_experience": 270,
+    "height": 4,
+    "weight": 40,
+    "types": [
+      "psychic"
+    ],
+    "abilities": [
+      {
+        "name": "synchronize",
+        "is_hidden": false
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "generation": "generation-i",
+    "is_legendary": false,
+    "is_mythical": true,
+    "habitat": "rare",
+    "growth_rate": "medium-slow",
+    "capture_rate": 45,
+    "evolution_chain": {
+      "species": "mew",
+      "evolves_to": []
+    }
+  }
+]
