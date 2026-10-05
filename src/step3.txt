@@ -1,0 +1,316 @@
+PP
+DS4300 Homework 3 - Step 3
+Shawn Tribuce
+Used MongoDB Compass to run the following queries on my Pokemon dataset.
+
+Database: ds4300_pokemon
+Collection: pokemon
+--------------------------------------------------------------------------------
+1) Which Pokemon are fire type?
+
+db.pokemon.find(
+  { types: "fire" },
+  { _id: 0, name: 1, types: 1 }
+)
+
+Output:
+[   { name: 'charmander', types: [ 'fire' ] },
+  { name: 'charmeleon', types: [ 'fire' ] },
+  { name: 'charizard', types: [ 'fire', 'flying' ] },
+  { name: 'vulpix', types: [ 'fire' ] },
+  { name: 'ninetales', types: [ 'fire' ] },
+  { name: 'growlithe', types: [ 'fire' ] },
+  { name: 'arcanine', types: [ 'fire' ] },
+  { name: 'ponyta', types: [ 'fire' ] },
+  { name: 'rapidash', types: [ 'fire' ] },
+  { name: 'magmar', types: [ 'fire' ] },
+  { name: 'flareon', types: [ 'fire' ] },
+  { name: 'moltres', types: [ 'fire', 'flying' ] }
+]
+
+
+--------------------------------------------------------------------------------
+2) Which Pokemon have an attack stat greater than 100?
+
+db.pokemon.find(
+  { "stats.attack": { $gt: 100 } },
+  { _id: 0, name: 1, "stats.attack": 1 }
+).sort({ "stats.attack": -1 })
+
+Output [
+  { name: 'dragonite', stats: { attack: 134 } },
+  { name: 'machamp', stats: { attack: 130 } },
+  { name: 'kingler', stats: { attack: 130 } },
+  { name: 'rhydon', stats: { attack: 130 } },
+  { name: 'flareon', stats: { attack: 130 } },
+  { name: 'pinsir', stats: { attack: 125 } },
+  { name: 'gyarados', stats: { attack: 125 } },
+  { name: 'golem', stats: { attack: 120 } },
+  { name: 'hitmonlee', stats: { attack: 120 } },
+  { name: 'kabutops', stats: { attack: 115 } },
+  { name: 'arcanine', stats: { attack: 110 } },
+]
+
+
+--------------------------------------------------------------------------------
+3) What are the 10 heaviest Pokemon?
+
+
+db.pokemon.find(
+  {},
+  { _id: 0, name: 1, weight: 1 }
+).sort({ weight: -1 }).limit(10)
+
+Output: [
+  { name: 'snorlax', weight: 4600 },
+  { name: 'golem', weight: 3000 },
+  { name: 'gyarados', weight: 2350 },
+  { name: 'lapras', weight: 2200 },
+  { name: 'dragonite', weight: 2100 },
+  { name: 'onix', weight: 2100 },
+  { name: 'arcanine', weight: 1550 },
+  { name: 'cloyster', weight: 1325 },
+  { name: 'machamp', weight: 1300 },
+  { name: 'mewtwo', weight: 1220 }
+]
+
+
+--------------------------------------------------------------------------------
+4) What are the names, types, and stats for each Pokemon?
+
+db.pokemon.find(
+  {},
+  { _id: 0, name: 1, types: 1, stats: 1 }
+).limit(5)
+
+Output   {
+    name: 'bulbasaur',
+    types: [ 'grass', 'poison' ],
+    stats: {
+      hp: 45,
+      attack: 49,
+      defense: 49,
+      'special-attack': 65,
+      'special-defense': 65,
+      speed: 45
+    }
+  },
+  {
+    name: 'ivysaur',
+    types: [ 'grass', 'poison' ],
+    stats: {
+      hp: 60,
+      attack: 62,
+      defense: 63,
+      'special-attack': 80,
+      'special-defense': 80,
+      speed: 60
+    }
+  },
+  {
+    name: 'venusaur',
+    types: [ 'grass', 'poison' ],
+    stats: {
+      hp: 80,
+      attack: 82,
+      defense: 83,
+      'special-attack': 100,
+      'special-defense': 100,
+      speed: 80
+    }
+  },
+  {
+    name: 'charmander',
+    types: [ 'fire' ],
+    stats: {
+      hp: 39,
+      attack: 52,
+      defense: 43,
+      'special-attack': 60,
+      'special-defense': 50,
+      speed: 65
+    }
+  },
+  {
+    name: 'charmeleon',
+    types: [ 'fire' ],
+    stats: {
+      hp: 58,
+      attack: 64,
+      defense: 58,
+      'special-attack': 80,
+      'special-defense': 65,
+      speed: 80
+    }
+  }
+]
+
+
+--------------------------------------------------------------------------------
+5) Which Pokemon have only two types?
+
+
+db.pokemon.find(
+  { types: { $size: 2 } },
+  { _id: 0, name: 1, types: 1 }
+).limit(5)
+
+Output [
+  { name: 'bulbasaur', types: [ 'grass', 'poison' ] },
+  { name: 'ivysaur', types: [ 'grass', 'poison' ] },
+  { name: 'venusaur', types: [ 'grass', 'poison' ] },
+  { name: 'charizard', types: [ 'fire', 'flying' ] },
+  { name: 'butterfree', types: [ 'bug', 'flying' ] }
+]
+
+
+--------------------------------------------------------------------------------
+6) Which Pokemon have at least one hidden ability?
+
+
+db.pokemon.find(
+  { "abilities.is_hidden": true },
+  { _id: 0, name: 1, abilities: 1 }
+).limit(5)
+
+Output [
+  {
+    name: 'bulbasaur',
+    abilities: [
+      { name: 'overgrow', is_hidden: false },
+      { name: 'chlorophyll', is_hidden: true }
+    ]
+  },
+  {
+    name: 'ivysaur',
+    abilities: [
+      { name: 'overgrow', is_hidden: false },
+      { name: 'chlorophyll', is_hidden: true }
+    ]
+  },
+  {
+    name: 'venusaur',
+    abilities: [
+      { name: 'overgrow', is_hidden: false },
+      { name: 'chlorophyll', is_hidden: true }
+    ]
+  },
+  {
+    name: 'charmander',
+    abilities: [
+      { name: 'blaze', is_hidden: false },
+      { name: 'solar-power', is_hidden: true }
+    ]
+  },
+  {
+    name: 'charmeleon',
+    abilities: [
+      { name: 'blaze', is_hidden: false },
+      { name: 'solar-power', is_hidden: true }
+    ]
+  }
+]
+
+--------------------------------------------------------------------------------
+7)  What is the average HP for Pokemon grouped by habitat?
+
+
+db.pokemon.aggregate([
+  { $match: { habitat: { $ne: null } } },
+  { $group: {
+      _id: "$habitat",
+      avg_hp: { $avg: "$stats.hp" },
+      count:  { $sum: 1 }
+  }},
+  { $sort: { avg_hp: -1 } }
+])
+
+Output:
+[
+  { _id: 'rare', avg_hp: 95.2, count: 5 },
+  { _id: 'mountain', avg_hp: 70.83333333333333, count: 18 },
+  { _id: 'urban', avg_hp: 68.0909090909091, count: 22 },
+  { _id: 'grassland', avg_hp: 66.74285714285715, count: 35 },
+  { _id: 'waters-edge', avg_hp: 63.68421052631579, count: 19 },
+  { _id: 'rough-terrain', avg_hp: 61.25, count: 8 },
+  { _id: 'forest', avg_hp: 58.38095238095238, count: 21 },
+  { _id: 'sea', avg_hp: 57, count: 15 },
+  { _id: 'cave', avg_hp: 41.25, count: 8 }
+]
+
+--------------------------------------------------------------------------------
+8) What are the top 5 Pokemon by their base experience?
+
+
+db.pokemon.aggregate([
+  { $sort:  { base_experience: -1 } },
+  { $limit: 5 },
+  { $project: { _id: 0, name: 1, base_experience: 1, types: 1 } }
+])
+
+Output:
+  { name: 'chansey', base_experience: 395, types: [ 'normal' ] },
+  { name: 'mewtwo', base_experience: 306, types: [ 'psychic' ] },
+  { name: 'mew', base_experience: 270, types: [ 'psychic' ] },
+  {
+    name: 'dragonite',
+    base_experience: 270,
+    types: [ 'dragon', 'flying' ]
+  },
+  { name: 'moltres', base_experience: 261, types: [ 'fire', 'flying' ] }
+]
+--------------------------------------------------------------------------------
+9) What are the most common types  of Pokemon in my list?
+
+db.pokemon.aggregate([
+  { $unwind: "$types" },
+  { $group: {
+      _id:   "$types",
+      count: { $sum: 1 }
+  }},
+  { $sort: { count: -1 } }
+])
+
+Output:
+  { _id: 'poison', count: 33 },
+  { _id: 'water', count: 32 },
+  { _id: 'normal', count: 22 },
+  { _id: 'flying', count: 19 },
+  { _id: 'grass', count: 14 },
+  { _id: 'ground', count: 14 },
+  { _id: 'psychic', count: 14 },
+  { _id: 'bug', count: 12 },
+  { _id: 'fire', count: 12 },
+  { _id: 'rock', count: 11 },
+]
+
+--------------------------------------------------------------------------------
+10) How do average attack and defense of legendary and non-legendary Pokemon compare to each other?
+
+db.pokemon.aggregate([
+  { $group: {
+      _id:            "$is_legendary",
+      avg_attack:     { $avg: "$stats.attack" },
+      avg_defense:    { $avg: "$stats.defense" },
+      avg_hp:         { $avg: "$stats.hp" },
+      count:          { $sum: 1 }
+  }},
+  { $sort: { _id: -1 } }
+])
+
+Output:
+  {
+    _id: true,
+    avg_attack: 96.25,
+    avg_defense: 91.25,
+    avg_hp: 94,
+    count: 4
+  },
+  {
+    _id: false,
+    avg_attack: 72.27891156462584,
+    avg_defense: 67.59863945578232,
+    avg_hp: 63.40136054421769,
+    count: 147
+  }
+]
